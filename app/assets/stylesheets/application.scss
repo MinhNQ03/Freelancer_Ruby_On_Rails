@@ -15,3 +15,27 @@
  */
  @import 'bulma';
  @import 'bulma-extensions';
+ @import 'bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min';
+ @import 'noty/lib/noty';
+ @import 'noty/lib/themes/sunset';
+ @import 'dropzone/dist/basic.css';
+ @import 'dropzone/dist/dropzone.css';
+
+
+
+
+.form-control {
+  border-radius: 25px;
+  width: 620px;
+  height: 40px;
+  font-size: 17px;
+}
+
+.form-group-invalid{
+  color: red;
+}
+
+
+
+
+

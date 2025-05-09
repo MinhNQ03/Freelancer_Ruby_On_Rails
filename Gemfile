@@ -46,7 +46,7 @@ gem "bootsnap", require: false
 # gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
+gem "image_processing", "~> 1.2"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -74,3 +74,19 @@ end
 gem 'jquery-rails'
 gem 'bulma-rails', '~>0.7.4'
 gem 'bulma-extensions-rails', '~>1.0.30'
+gem 'devise'
+gem 'noty-rails'
+gem 'omniauth'
+gem 'omniauth-facebook', '=5.0.0'
+gem 'simple_form'
+
+gem 'omniauth-google-oauth2'
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+gem 'faker'
+gem "net-http"
+
+
+gem 'dropzonejs-rails'
+gem 'carrierwave'
+
+gem 'figaro'
